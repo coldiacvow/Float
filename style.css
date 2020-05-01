@@ -1,0 +1,111 @@
+/*code css reset*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5,
+h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub,
+sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldswt, form, label,
+legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	}
+	
+body {
+	line-height: 1;
+	}
+	
+ol, ul {
+	list-style: none;
+	}
+	
+blockquote, q {
+	quotes: none;
+	}
+	
+blockquote:before, blockquote:after, q:before, q:after {
+	content: ' ';
+	content: none;
+	}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+	
+/*start my style.css*/
+
+
+.red {
+    background-color: red;
+        }
+        
+.green {
+    background-color: green;
+        }
+        
+.blue {
+    background-color: blue;
+        }
+
+.cyan {
+    background-color: cyan;
+        }
+
+.yellow {
+    background-color: yellow;
+        }
+
+.black {
+   background-color: black;
+        }
+
+.orange {
+   background-color: orange;
+        }
+
+.container {
+	max-width: 1100px;
+	margin: auto;
+	border: 2px solid #eaeaea;
+	}
+
+.float {
+	float: left;
+	}
+	
+.wrap {
+	width: 80%;
+	}
+	
+.defsize {
+	width: 100%;
+	height: 100px;
+	}
+	
+.clearfix {
+	clear: both;
+	}
+
+.right-card {
+    width: 20%;
+    height: 400px;
+        }
+
+.card-2 {
+   width: 50%;
+        }
+
+.card-3 {
+  width: 33.33%;
+        }
+        
+.card-4 {
+  width: 25%;
+        }
+
+	
